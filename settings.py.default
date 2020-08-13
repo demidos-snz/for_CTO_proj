@@ -1,0 +1,9 @@
+WEATHER_TOKEN = ''
+TELEGRAM_TOKEN = ''
+CITY = 'Москва'
+LANGUAGE = 'ru'
+UNITS = 'metric'
+URL_WEATHER_API = 'http://api.openweathermap.org/data/2.5/weather?q={{0}}&appid={0}&lang={{1}}&units={{2}}'.format(WEATHER_TOKEN)
+TEXT_ERROR_CITY_NOT_EXISTS = 'Такого города не найдено'
+MAX_COUNT_FAVOURITE_CITY = 5
+DB_NAME = 'db.db'
